@@ -1,0 +1,94 @@
+.outer-div{
+  /* height:500px; */
+  width:800px;
+  /* border:1px solid black; */
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.searching{
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.demo{
+  font-size: 32px;
+  font-weight:600;
+  color: #26a559;
+}
+.searchbar{
+  width:50%;
+}
+.text{
+  text-align: center;
+}
+.text div{
+  margin-bottom: 15px;
+}
+input{
+  margin-top: 20px;
+  height: 32px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+::placeholder{
+  color: gray
+}
+.suggestions-products{
+  display: flex;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin-top: 10px;
+}
+.searchanise-img{
+  height: 50%;
+  margin-left: 30px;
+}
+.right-nav{
+  display: flex;
+  margin-top: 10px;
+  width:60%;
+  justify-content: space-around;
+}
+.demo-button{
+  font-size: larger;
+  color: #26a559;
+  border: 2px solid #e3f2ea;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+.demo-button span{
+  font-size: small;
+  padding-right: 10px;
+  padding-left: 15px;
+}
+.start-free-trial span{
+  font-size: medium;
+}
+.start-free-trial{
+  margin-left: 10px;
+  background-color: #26a559;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding:8px;
+}
+.buttons{
+  margin-top: -4px;
+}
+.start-free-trial:hover{
+  background-color: #357c51;
+  cursor: pointer;
+}
+.demo-button:hover{
+  background-color: #26a559;
+  color: white;
+  cursor: pointer;
+}
+
+
